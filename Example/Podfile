@@ -1,0 +1,7 @@
+use_frameworks!
+target 'TCTPopView_Tests' do
+  pod 'TCTPopView', :path => '../'
+  
+  pod 'Specta'
+    pod 'Expecta'
+end
