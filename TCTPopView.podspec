@@ -28,6 +28,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/princeSmall/TCTPopView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.license          = 'MIT'
+  s.platform     = :ios, '7.0'            #支持的平台及版本
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TCTPopView/Classes/**/*'
